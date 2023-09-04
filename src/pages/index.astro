@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from "astro:assets";
+import HoustonImg from "./../assets/houston.png";
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<Image src={HoustonImg} alt="local image" height={782} width={410} />
+	</main>
+</Layout>
